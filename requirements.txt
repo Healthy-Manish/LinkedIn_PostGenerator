@@ -1,12 +1,14 @@
-python-dotenv==1.0.1      # ✅ Loads .env environment variables
-streamlit==1.37.1         # ✅ Required for Streamlit apps
-langchain-groq==0.3.2     # ✅ For Groq integration
-langchain==0.3.0          # ✅ Core langchain support
-pandas==2.2.2             # ✅ Data manipulation
-numpy==1.26.4             # ✅ Needed for scientific computation
-matplotlib==3.9.1         # ✅ For plotting
-scikit-learn==1.5.2       # ✅ For ML models
-requests==2.32.3          # ✅ For making API calls
-selenium==4.33.0          # ✅ For browser automation
-webdriver-manager==4.0.2  # ✅ Manages drivers for selenium
-beautifulsoup4==4.12.3    # ✅ For HTML parsing
+streamlit==1.37.1
+langchain==0.3.0
+langchain-groq==0.3.2
+python-dotenv==1.0.1
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.1
+scikit-learn==1.5.2
+tensorflow-cpu==2.17.0
+opencv-python-headless==4.10.0.84
+requests==2.32.3
+beautifulsoup4==4.12.3
+selenium==4.33.0
+webdriver-manager==4.0.2
