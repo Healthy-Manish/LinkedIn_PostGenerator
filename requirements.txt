@@ -256,6 +256,6 @@ streamlit
 selenium
 beautifulsoup4
 webdriver-manager
-langchain-grok
-python-dotenv
-gunicorn
+langchain-groq==0.3.2
+python-dotenv==1.0.1
+gunicorn==21.2.0
