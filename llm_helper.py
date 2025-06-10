@@ -8,6 +8,7 @@ llm = ChatGroq(
     model_name ="gemma2-9b-it"
 )
 
+
 if __name__== "__main__":
     response = llm.invoke("give me ingredients of momos with emojis")
     print(response.content)
